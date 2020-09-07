@@ -1,0 +1,31 @@
+@import '../variables.scss';
+
+.currency {
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  min-width: 270px;
+
+  @media (min-width: 1010px) {
+    margin-right: 1rem;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__avatar {
+    background-color: $background !important;
+  }
+
+  &__button {
+    margin-left: 1rem !important;
+  }
+
+  &:hover {
+    box-shadow: 0px 2px 1px -1px rgba($background, 0.5), 0px 1px 1px 0px rgba($background, 0.8), 0px 1px 3px 0px rgba($background, 0.12);
+  }
+
+  &__caption {
+    color: #e64a19;
+  }
+}

@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+.input {
+  padding: 2rem 0;
+
+  &__currency {
+    margin-right: 1rem !important;
+  }
+}

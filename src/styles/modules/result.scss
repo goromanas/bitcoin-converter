@@ -1,0 +1,13 @@
+@import '../variables.scss';
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+
+  @media (min-width: 1010px) {
+    flex-direction: row;
+  }
+}

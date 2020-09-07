@@ -1,0 +1,13 @@
+@import './styles/variables';
+
+.App {
+  &__wrapper {
+    height: 100vh;
+    background: $background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
